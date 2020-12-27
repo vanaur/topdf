@@ -1,0 +1,6 @@
+name "topdf"
+description "A minimal D application."
+authors "vanaur"
+copyright "Copyright © 2020, vanaur"
+license "proprietary"
+dependency "printed" version="~>1.0.1"

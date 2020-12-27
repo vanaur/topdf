@@ -1,0 +1,15 @@
+{
+	"fileVersion": 1,
+	"versions": {
+		"arsd-official": "9.0.4",
+		"binrange": "1.0.3",
+		"dplug": "9.3.4",
+		"gfm": "8.0.4",
+		"imageformats": "7.0.2",
+		"intel-intrinsics": "1.3.7",
+		"isfreedesktop": "0.1.1",
+		"printed": "1.0.1",
+		"standardpaths": "0.8.1",
+		"xdgpaths": "0.2.5"
+	}
+}
