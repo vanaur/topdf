@@ -2,6 +2,7 @@ import std.stdio;
 import std.path;
 import std.file;
 import std.typecons;
+import std.string;
 import printed.canvas;
 
 /// Creates a totaly new directory and returns the name
@@ -76,7 +77,9 @@ void main(string[] args)
 		writeln();
 		writeln("Handling ", image);
 
-		if (image.extension != ".png" && image.extension != ".jpg")
+		const string ext = image.extension.toLower();
+		
+		if (ext != ".png" && ext != ".jpg")
 		{
 			writeln("[ERROR]: Can't convert ", '"' ~ image ~ '"', " to PDF due to file format.");
 			handled ~= tuple(false, image);
